@@ -1,5 +1,5 @@
 @import "bootstrap";
-/*@import "bootstrap-responsive";*/
+@import "bootstrap-responsive";
 
 /* mixins, variables, etc. */
 
@@ -55,7 +55,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: $grayMediumLight;
+  color: $grayLight;
 }
 
 p {
@@ -88,7 +88,7 @@ footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid $grayMediumLight;
-  color: $grayMediumLight;
+  color: $grayLight;
   a {
     color: $gray;
     &:hover {
